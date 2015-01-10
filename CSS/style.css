@@ -1,0 +1,436 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../Fonts/icomoon.eot?-ppxu2y');
+  src:url('../Fonts/icomoon.eot?#iefix-ppxu2y') format('embedded-opentype'),
+    url('../Fonts/icomoon.woff?-ppxu2y') format('woff'),
+    url('../Fonts/icomoon.ttf?-ppxu2y') format('truetype'),
+    url('../Fonts/icomoon.svg?-ppxu2y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e600";
+}
+
+.icon-mail:before {
+  content: "\e601";
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../Fonts/gotham-book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Serifa';
+    src: url("../Fonts/SerifaStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url("../Fonts/TradeGothicLTStd-Bd2.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Bold_Condensed';
+    src: url("../Fonts/TradeGothicLTStd-BdCn20.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Condensed';
+    src: url("../Fonts/TradeGothicLTStd-Cn18.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url("../Fonts/TradeGothicLTStd-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Std';
+    src: url("../Fonts/TradeGothicLTStd.otf") format("opentype");
+}
+
+
+
+/************* TYPOGRAPHY**********/
+
+.headline {
+  font-family: "Bold_Condensed";
+  font-size: 19px;
+  color:#EA6409;
+  text-align: center;
+  width:625px;
+  border-bottom: 1px solid #EA6409;
+  margin-bottom: 1px;
+}
+
+.intro_text {
+  font-family: 'Std';
+  font-size: 12px;
+  color:#575756;
+}
+
+.sub_title { 
+  font-family: 'Bold';
+  font-size: 18px;
+}
+
+.intro {
+  font-family: 'Bold_Condensed';
+  font-size: 20px;
+  color:#575756;
+  font-weight: inherit;
+}
+
+.sm {
+  font-size: 9.45px;
+  font-family: 'Light';
+}
+
+.sml {
+  font-size: 15.45px;
+  font-family: 'Bold';
+  font-weight: 100;
+}
+
+.form_headline {
+  font-family: 'Condensed';
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.serifa {
+  font-family: 'Serifa';
+}
+
+.gotham {
+  font-family: 'Gotham';
+}
+
+
+.bold_condensed {
+  font-family: 'Bold_Condensed';
+}
+
+.light {
+  font-family: 'Light';
+}
+/****************************************/
+
+/****************LAYOUT*******************/
+
+body {
+  margin:0;
+}
+
+.container {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+.content {
+    padding: 0 10px;
+    display: table-cell;
+    vertical-align: middle;
+    width:850px;    
+}
+
+.logo {
+    width: 232px;
+    display: block;
+    margin:auto; 
+    padding:16px 0 26px 0;
+}
+
+.banner
+{
+    display: block;
+    margin:auto; 
+    padding-bottom: 5px;
+}
+
+.row {
+  /*display: table-row;*/
+  width:625px;
+  margin:0 auto;
+}
+
+.col {
+  display: table-cell;
+  width: 300px;
+}
+
+.col2 {
+  display: table-cell;
+  width: 300px;
+  vertical-align: bottom;
+}
+
+.col:nth-child(2n+1) {  
+  padding-left: 20px;
+}
+
+.icon {
+  width:125px;
+  padding-right: 15px;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.r {
+  padding-right: 10px;
+  width:90px;
+}
+
+.title {
+  width: 175px;
+  display:table-cell;
+  vertical-align: middle;
+  color:#575756;
+}
+
+.item {
+  display: block;
+  padding-bottom: 25px;
+}
+
+
+.col>form {
+  margin-top: 10px;
+}
+.contact_form {
+  width:625px;
+  /*height: 250px;*/
+  background-color: #775799;
+  border-radius: 2px;
+  color:#FFFFFF;
+  margin:auto;
+}
+
+.contact_info {
+  width:625px;
+  height:110px;
+  border-radius: 2px;
+  background-color: #BB1611;
+  color:#FFFFFF;
+  margin:5px auto 15px auto;
+}
+
+
+.info {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.contact {
+  font-size: 15.45px;
+  font-family: "light";
+  display: inline-block;
+  margin:0;
+}
+
+#proposal {
+  width:120px;
+}
+
+#magnifier {
+  width:80px;
+}
+
+#pitch {
+  width:83px;
+}
+
+#plant {
+    width: 55px;
+}
+
+
+span {
+  padding-right: 12px;
+}
+
+
+
+
+/*************** INPUT *************/
+
+input[type=text], input[type=email] {
+  border:1px solid #6A7FB8;
+  width:280px;
+  height:30px;
+  outline:0;
+  font-family: "light";
+  font-size: 9.5px;
+}
+
+::-webkit-input-placeholder {
+ font-size: 9.5px;
+ color: #575756;
+ padding-left: 10px;
+ font-family: 'light';
+}
+:-moz-placeholder { /* older Firefox*/
+ font-size: 9.5px;
+ color: #575756;
+ padding-left: 10px;
+ font-family: 'light';
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 9.5px;
+ color: #575756;
+ padding-left: 10px;
+ font-family: 'light';
+} 
+:-ms-input-placeholder { 
+ font-size: 9.5px;
+ color: #575756;
+ padding-left: 10px;
+ font-family: 'light';
+}
+
+.field {
+  padding-left: 5px;
+  padding-bottom: 8px;
+}
+
+
+.option {
+  padding-bottom: 20px;
+}
+
+.icon-mail {
+  font-size: 20px;
+}  
+.icon-linkedin {
+  font-size: 17px;
+}
+
+/*****************RADIO**************/
+input[type=radio].css-radio {
+              position:absolute; 
+              z-index:-1000; 
+              left:-1000px; 
+              overflow: hidden; 
+              clip: rect(0 0 0 0); 
+              height:1px; 
+              width:1px; 
+              margin:-1px; 
+              padding:0; 
+              border:0;
+            }
+
+            input[type=radio].css-radio + label.radiolabel {
+              padding-left:25px;
+              height:17px; 
+              display:inline-block;
+              line-height:22.5px;
+              background-repeat:no-repeat;
+              background-position: 0 0;
+              font-family: "Bold";
+              font-size:18px;
+              color:#FFFFFF;
+              vertical-align:middle;
+              cursor:pointer;
+
+            }
+
+            input[type=radio].css-radio:checked + label.radiolabel {
+              background-position: 0 -17px;
+            }
+            label.radiolabel {
+        background-image:url(../Img/check.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+/*************** CHECKBOX***********/
+
+input[type=checkbox].css-checkbox {
+              position:absolute; 
+              z-index:-1000; 
+              left:-1000px; 
+              overflow: hidden;
+              clip: rect(0 0 0 0); 
+              height:1px; 
+              width:1px; 
+              margin:-1px;
+              padding:0; 
+              border:0;
+            }
+
+input[type=checkbox].css-checkbox + label.css-label {
+  padding-left:30px;
+  height:17px; 
+  display:inline-block;
+  line-height:22.5px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size:11.45px;
+  vertical-align:middle;
+  cursor:pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -17px;
+}
+label.css-label {
+background-image:url(../Img/check.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+/************************************************/
+
+button {
+  width:85px;
+  height: 22px;
+  font-family: 'bold';
+  font-size:8.45px;
+  line-height: 19px;
+  color:#FFF;
+  background-color: #6A7FB8;
+  border: 1.134px solid #FFFFFF;
+  margin:auto;
+  outline: none;
+}
+
+button:focus{
+  background-color:#6A22B8 
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
