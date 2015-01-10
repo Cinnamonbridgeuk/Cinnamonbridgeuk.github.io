@@ -282,29 +282,29 @@ input[type=text], input[type=email] {
   height:30px;
   outline:0;
   font-family: "light";
-  font-size: 9.5px;
+  font-size: 12.5px;
 }
 
 ::-webkit-input-placeholder {
- font-size: 9.5px;
+ font-size: 12.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
 }
 :-moz-placeholder { /* older Firefox*/
- font-size: 9.5px;
+ font-size: 12.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
 }
 ::-moz-placeholder { /* Firefox 19+ */ 
- font-size: 9.5px;
+ font-size: 12.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
 } 
 :-ms-input-placeholder { 
- font-size: 9.5px;
+ font-size: 12.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
