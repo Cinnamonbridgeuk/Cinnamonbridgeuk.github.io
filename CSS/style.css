@@ -89,7 +89,7 @@
 
 .sub_title { 
   font-family: 'Bold';
-  font-size: 18px;
+  font-size: 17.3px;
 }
 
 .intro {
@@ -102,18 +102,31 @@
 .sm {
   font-size: 9.45px;
   font-family: 'Light';
+  margin:20px 0 0 20px;
 }
 
 .sml {
   font-size: 15.45px;
   font-family: 'Bold';
   font-weight: 100;
+  margin:0;
 }
 
-.form_headline {
+.ss-q-title {
   font-family: 'Condensed';
   font-size: 20px;
   font-weight: 100;
+}
+
+.ss-choice-label {
+  font-family: 'Bold';
+  font-size: 17.5px;
+  font-weight: 100;
+}
+
+.subscribe_text {
+  font-family: 'Light';
+  font-size:11.5px;
 }
 
 .serifa {
@@ -176,18 +189,23 @@ body {
 }
 
 .col {
-  display: table-cell;
+  display: inline-block;
   width: 300px;
+  vertical-align: top;
 }
 
 .col2 {
-  display: table-cell;
+  display: inline-block;
   width: 300px;
-  vertical-align: bottom;
+  margin-top: 30px;
+  /*vertical-align: 53px;*/
+/*  position: absolute;
+  top: 910px;*/
 }
 
+
 .col:nth-child(2n+1) {  
-  padding-left: 20px;
+  padding-left: 14px;
 }
 
 .icon {
@@ -216,12 +234,12 @@ body {
 }
 
 
-.col>form {
-  margin-top: 10px;
-}
+/*.col2>form {
+  margin-top: 199px;
+}*/
 .contact_form {
   width:625px;
-  /*height: 250px;*/
+  height: 250px;
   background-color: #775799;
   border-radius: 2px;
   color:#FFFFFF;
@@ -239,7 +257,7 @@ body {
 
 
 .info {
-  padding-top: 20px;
+  padding-top: 18px;
   padding-left: 25px;
 }
 
@@ -266,9 +284,8 @@ body {
     width: 55px;
 }
 
-
-span {
-  padding-right: 12px;
+.icon-mail, .icon-linkedin {
+  padding-right: 6px;
 }
 
 
@@ -278,33 +295,34 @@ span {
 
 input[type=text], input[type=email] {
   border:1px solid #6A7FB8;
-  width:280px;
+  width:290px;
   height:30px;
   outline:0;
   font-family: "light";
-  font-size: 12.5px;
+  font-size: 11.5px;
+  margin-bottom: 6px;
 }
 
 ::-webkit-input-placeholder {
- font-size: 12.5px;
+ font-size: 9.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
 }
 :-moz-placeholder { /* older Firefox*/
- font-size: 12.5px;
+ font-size: 9.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
 }
 ::-moz-placeholder { /* Firefox 19+ */ 
- font-size: 12.5px;
+ font-size: 9.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
 } 
 :-ms-input-placeholder { 
- font-size: 12.5px;
+ font-size: 9.5px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
@@ -411,7 +429,7 @@ user-select: none;
 }
 /************************************************/
 
-button {
+input[type='submit'] {
   width:85px;
   height: 22px;
   font-family: 'bold';
@@ -424,13 +442,90 @@ button {
   outline: none;
 }
 
-button:focus{
+input[type='submit']:focus{
   background-color:#6A22B8 
 }
 
-.button {
+.input[type='submit'] {
   text-align: center;
   padding-bottom: 15px;
 }
 
+#navigation-table {
+  margin:auto;
+}
 
+/*************/
+ul, li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.required-message {
+  display:none;
+}
+
+.ss-password-warning {
+display:none;
+}
+
+.ss-q-help, .ss-secondary-text {
+  display:none;
+}
+
+ul.ss-choices {
+  margin:10px;
+  padding:0;
+}
+
+#entry_1736127966 {
+  margin-bottom: 3px;
+}
+
+input[type=submit] {
+  margin:0;
+}
+
+/*********** GOOGLE RADIO ***********/
+/*****************RADIO**************/
+/*input[type=radio].ss-q-radio {
+              position:absolute; 
+              z-index:-1000; 
+              left:-1000px; 
+              overflow: hidden; 
+              clip: rect(0 0 0 0); 
+              height:1px; 
+              width:1px; 
+              margin:-1px; 
+              padding:0; 
+              border:0;
+            }
+
+            input[type=radio].ss-q-radio + label.radiolabel {
+              padding-left:25px;
+              height:17px; 
+              display:inline-block;
+              line-height:22.5px;
+              background-repeat:no-repeat;
+              background-position: 0 0;
+              font-family: "Bold";
+              font-size:18px;
+              color:#FFFFFF;
+              vertical-align:middle;
+              cursor:pointer;
+
+            }
+
+            input[type=radio].ss-q-radio:checked + label.radiolabel {
+              background-position: 0 -17px;
+            }
+            label.radiolabel {
+        background-image:url(../Img/check.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+*/
