@@ -239,7 +239,7 @@ body {
 
 .contact_form {
   width:625px;
-  height: 250px;
+  height: ;
   background-color: #775799;
   border-radius: 2px;
   color:#FFFFFF;
@@ -450,11 +450,7 @@ button[type='submit'] {
 button[type='submit']:focus{
   background-color:#6A22B8 
 }
-/*
-button[type='submit'] {
-  text-align: center;
-  padding-bottom: 15px;
-}*/
+
 
 .form-buttons-wrapper {
   margin:0;
@@ -474,33 +470,4 @@ input[type=submit] {
   margin:0;
 }
 
-/*input[type="radio"] {
-  margin-top: -3px;
-  /*vertical-align: middle;
-}*/
-
-/*
-input[type=radio]{
-     -webkit-appearance: checkbox;
-}
-*/
-/*********** GOOGLE RADIO ***********/
-/*****************RADIO**************/
-/**/
-
-
-/*.ss-choice-item-control, .ss-q-radio {
-  
-
-  width: 17px;
-  height: 17px;
-  padding: 0 5px 0 0;
-  background: url(../Img/check.png) no-repeat;
-  display: block;
-  clear: left;
-  float: left;
-}
-.ss-q-radio {
-  background: url(../Img/check.png) no-repeat;
-}*/
 
