@@ -102,7 +102,7 @@
 .sm {
   font-size: 9.45px;
   font-family: 'Light';
-  margin:20px 0 0 20px;
+  margin:35px 0 0 5px;
 }
 
 .sml {
@@ -233,10 +233,10 @@ body {
   padding-bottom: 25px;
 }
 
+[am-text~="pushed"]{
+  margin-top: 25px;
+}
 
-/*.col2>form {
-  margin-top: 199px;
-}*/
 .contact_form {
   width:625px;
   height: 250px;
@@ -253,6 +253,11 @@ body {
   background-color: #BB1611;
   color:#FFFFFF;
   margin:5px auto 15px auto;
+}
+
+span.form-radio-item {
+  display: block;
+  margin-top: 16px;
 }
 
 
@@ -294,13 +299,13 @@ body {
 /*************** INPUT *************/
 
 input[type=text], input[type=email] {
-  border:1px solid #6A7FB8;
+  border:1.9px solid #6A7FB8;
   width:290px;
   height:30px;
   outline:0;
   font-family: "light";
   font-size: 11.5px;
-  margin-bottom: 6px;
+  margin-bottom: 7px;
 }
 
 ::-webkit-input-placeholder {
@@ -346,7 +351,7 @@ input[type=text], input[type=email] {
 }
 
 /*****************RADIO**************/
-input[type=radio].css-radio {
+input[type=radio].form-radio {
               position:absolute; 
               z-index:-1000; 
               left:-1000px; 
@@ -359,7 +364,7 @@ input[type=radio].css-radio {
               border:0;
             }
 
-            input[type=radio].css-radio + label.radiolabel {
+            input[type=radio].form-radio + label.radiolabel {
               padding-left:25px;
               height:17px; 
               display:inline-block;
@@ -374,7 +379,7 @@ input[type=radio].css-radio {
 
             }
 
-            input[type=radio].css-radio:checked + label.radiolabel {
+            input[type=radio].form-radio:checked + label.radiolabel {
               background-position: 0 -17px;
             }
             label.radiolabel {
@@ -389,7 +394,7 @@ input[type=radio].css-radio {
 
 /*************** CHECKBOX***********/
 
-input[type=checkbox].css-checkbox {
+input[type=checkbox].form-checkbox {
               position:absolute; 
               z-index:-1000; 
               left:-1000px; 
@@ -402,7 +407,7 @@ input[type=checkbox].css-checkbox {
               border:0;
             }
 
-input[type=checkbox].css-checkbox + label.css-label {
+input[type=checkbox].form-checkbox + label.checklabel {
   padding-left:30px;
   height:17px; 
   display:inline-block;
@@ -415,10 +420,10 @@ input[type=checkbox].css-checkbox + label.css-label {
 
 }
 
-input[type=checkbox].css-checkbox:checked + label.css-label {
+input[type=checkbox].form-checkbox:checked + label.checklabel {
   background-position: 0 -17px;
 }
-label.css-label {
+label.checklabel {
 background-image:url(../Img/check.png);
 -webkit-touch-callout: none;
 -webkit-user-select: none;
@@ -429,7 +434,7 @@ user-select: none;
 }
 /************************************************/
 
-input[type='submit'] {
+button[type='submit'] {
   width:85px;
   height: 22px;
   font-family: 'bold';
@@ -442,90 +447,60 @@ input[type='submit'] {
   outline: none;
 }
 
-input[type='submit']:focus{
+button[type='submit']:focus{
   background-color:#6A22B8 
 }
-
-.input[type='submit'] {
+/*
+button[type='submit'] {
   text-align: center;
   padding-bottom: 15px;
-}
+}*/
 
-#navigation-table {
-  margin:auto;
+.form-buttons-wrapper {
+  margin:0;
+  text-align: center;
 }
 
 /*************/
 ul, li {
   list-style: none;
-  padding-bottom: 10px;
+  padding: 0px;
 }
 
-.required-message {
-  display:none;
-}
 
-.ss-password-warning {
-display:none;
-}
 
-.ss-q-help, .ss-secondary-text {
-  display:none;
-}
-
-ul.ss-choices {
-  margin:10px;
-  padding:0;
-}
-
-#entry_1736127966 {
-  margin-bottom: 3px;
-}
 
 input[type=submit] {
   margin:0;
 }
 
+/*input[type="radio"] {
+  margin-top: -3px;
+  /*vertical-align: middle;
+}*/
+
+/*
+input[type=radio]{
+     -webkit-appearance: checkbox;
+}
+*/
 /*********** GOOGLE RADIO ***********/
 /*****************RADIO**************/
-/*input[type=radio].ss-q-radio {
-              position:absolute; 
-              z-index:-1000; 
-              left:-1000px; 
-              overflow: hidden; 
-              clip: rect(0 0 0 0); 
-              height:1px; 
-              width:1px; 
-              margin:-1px; 
-              padding:0; 
-              border:0;
-            }
+/**/
 
-            input[type=radio].ss-q-radio + label.radiolabel {
-              padding-left:25px;
-              height:17px; 
-              display:inline-block;
-              line-height:22.5px;
-              background-repeat:no-repeat;
-              background-position: 0 0;
-              font-family: "Bold";
-              font-size:18px;
-              color:#FFFFFF;
-              vertical-align:middle;
-              cursor:pointer;
 
-            }
+/*.ss-choice-item-control, .ss-q-radio {
+  
 
-            input[type=radio].ss-q-radio:checked + label.radiolabel {
-              background-position: 0 -17px;
-            }
-            label.radiolabel {
-        background-image:url(../Img/check.png);
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-*/
+  width: 17px;
+  height: 17px;
+  padding: 0 5px 0 0;
+  background: url(../Img/check.png) no-repeat;
+  display: block;
+  clear: left;
+  float: left;
+}
+.ss-q-radio {
+  background: url(../Img/check.png) no-repeat;
+}*/
+
