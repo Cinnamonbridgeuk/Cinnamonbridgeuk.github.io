@@ -192,7 +192,7 @@ body {
 
 .col {
   display: inline-block;
-  width: 300px;
+  width: 302px;
   vertical-align: top;
 }
 
@@ -224,7 +224,7 @@ body {
 }
 
 .title {
-  width: 175px;
+  width: 180px;
   display:table-cell;
   vertical-align: middle;
   color:#575756;
@@ -321,6 +321,7 @@ input[type=text], input[type=email] {
   outline:0;
   font-family: "light";
   font-size: 11.5px;
+  padding-left: 10px;
   margin-bottom: 6px;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -331,28 +332,28 @@ input[type=text], input[type=email] {
 ::-webkit-input-placeholder {
  font-size: 11px;
  color: #575756;
- padding-left: 10px;
+ /*padding-left: 10px;*/
  font-family: 'light';
  line-height: 17px;
 }
 :-moz-placeholder { /* older Firefox*/
  font-size: 11px;
  color: #575756;
- padding-left: 10px;
+ /*padding-left: 10px;*/
  font-family: 'light';
  line-height: 17px;
 }
 ::-moz-placeholder { /* Firefox 19+ */ 
  font-size: 11px;
  color: #575756;
- padding-left: 10px;
+ /*padding-left: 10px;*/
  font-family: 'light';
  line-height: 17px;
 } 
 :-ms-input-placeholder { 
  font-size: 11px;
  color: #575756;
- padding-left: 10px;
+ /*padding-left: 10px;*/
  font-family: 'light';
  line-height: 17px;
 }
