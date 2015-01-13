@@ -235,7 +235,7 @@ body {
 }
 
 [am-text~="pushed"]{
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 [am-text~="margin"]{
@@ -296,6 +296,7 @@ span.form-radio-item {
 #plant {
     /*width: 55px;*/
     width: 45px;
+    padding-top: 10px;
 }
 
 .icon-mail, .icon-linkedin {
