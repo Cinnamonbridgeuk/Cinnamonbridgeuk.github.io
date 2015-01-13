@@ -166,7 +166,7 @@ body {
     padding: 0 10px;
     display: table-cell;
     vertical-align: middle;
-    width:850px;    
+      
 }
 
 .logo {
@@ -462,8 +462,8 @@ button[type='submit'] {
   width:85px;
   height: 22px;
   font-family: 'bold', "Tahoma";
-  font-size:8.45px;
-  line-height: 19px;
+  font-size:9px;
+  line-height: 20px;
   color:#FFF;
   background-color: #6A7FB8;
   border: 1.134px solid #FFFFFF;
