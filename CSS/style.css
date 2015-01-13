@@ -108,7 +108,7 @@
 
 .sml {
   font-size: 15.45px;
-  font-family: 'Bold' 'Tahoma';
+  font-family: 'Bold', 'Tahoma';
   font-weight: 100;
   margin:0;
 }
@@ -269,7 +269,7 @@ span.form-radio-item {
 
 .contact {
   font-size: 15.45px;
-  font-family: "light";
+  font-family: "light", 'Tahoma';
   display: inline-block;
   margin:0;
 }
