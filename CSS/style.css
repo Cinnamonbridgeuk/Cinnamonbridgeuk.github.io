@@ -90,7 +90,7 @@
 .sub_title { 
   font-family: 'Bold', Arial;
   font-size: 17.3px;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .intro {
@@ -235,7 +235,11 @@ body {
 }
 
 [am-text~="pushed"]{
-  margin-top: 25px;
+  margin-top: 35px;
+}
+
+[am-text~="margin"]{
+  margin-left: 5px;
 }
 
 .contact_form {
@@ -275,19 +279,23 @@ span.form-radio-item {
 }
 
 #proposal {
-  width:120px;
+  /*width:120px;*/
+  width:110px;
 }
 
 #magnifier {
-  width:80px;
+  /*width:80px;*/
+  width:70px;
 }
 
 #pitch {
-  width:83px;
+  /*width:83px;*/
+  width:73px;
 }
 
 #plant {
-    width: 55px;
+    /*width: 55px;*/
+    width: 45px;
 }
 
 .icon-mail, .icon-linkedin {
