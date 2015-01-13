@@ -189,6 +189,7 @@ body {
   margin:0 auto;
 }
 
+
 .col {
   display: inline-block;
   width: 300px;
@@ -197,11 +198,11 @@ body {
 
 .col2 {
   display: inline-block;
-  width: 300px;
+  width: 280px;
   margin-top: 30px;
   vertical-align: bottom;
   padding-bottom: 13px;
-  padding-right: 7px;
+  padding-left: 14px;
 }
 
 
@@ -315,7 +316,7 @@ a {
 
 input[type=text], input[type=email] {
   border:1.9px solid #6A7FB8;
-  width:290px !important;
+  width:280px !important;
   height:30px !important;
   outline:0;
   font-family: "light";
