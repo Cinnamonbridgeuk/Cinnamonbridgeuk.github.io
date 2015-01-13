@@ -278,6 +278,11 @@ span.form-radio-item {
   margin:0;
 }
 
+a {
+  text-decoration:none;
+  color:#FFFFFF;
+}
+
 #proposal {
   /*width:120px;*/
   width:110px;
@@ -323,28 +328,32 @@ input[type=text], input[type=email] {
 }
 
 ::-webkit-input-placeholder {
- font-size: 9.5px;
+ font-size: 11px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
+ line-height: 17px;
 }
 :-moz-placeholder { /* older Firefox*/
- font-size: 9.5px;
+ font-size: 11px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
+ line-height: 17px;
 }
 ::-moz-placeholder { /* Firefox 19+ */ 
- font-size: 9.5px;
+ font-size: 11px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
+ line-height: 17px;
 } 
 :-ms-input-placeholder { 
- font-size: 9.5px;
+ font-size: 11px;
  color: #575756;
  padding-left: 10px;
  font-family: 'light';
+ line-height: 17px;
 }
 
 .field {
