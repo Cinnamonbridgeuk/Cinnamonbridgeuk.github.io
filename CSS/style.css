@@ -50,6 +50,16 @@
   margin-bottom: 1px;
 }
 
+.headline1 {
+  font-family: "Bold_Condensed", 'Roboto Condensed';
+  font-size: 19px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#EA6409;
+  text-align: center;
+  width:625px;
+  
+ }
 .intro_text {
   font-family: 'Std', Tahoma;
   font-size: 12px;
