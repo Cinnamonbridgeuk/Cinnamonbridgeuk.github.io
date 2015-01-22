@@ -51,8 +51,8 @@
 }
 
 .headline1 {
-  font-family: 'Std', Tahoma;
-  font-size: 17.3px;
+  font-family: "Bold_Condensed", 'Roboto Condensed';
+  font-size: 13px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color:#EA6409;
